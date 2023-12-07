@@ -54,7 +54,7 @@ def insert_ticket_data(selected_ticket_type,selected_ticket_amount,selected_pack
             )
             VALUES (?, ?, ?, ?, ?, ?, ?)
         ''',)
-a
+
         connection.commit()
         print("Ticket data inserted successfully!")
 
